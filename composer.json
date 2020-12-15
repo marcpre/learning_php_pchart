@@ -1,0 +1,12 @@
+{
+    "name": "marcus/learning_php_pchart",
+    "authors": [
+        {
+            "name": "admin",
+            "email": "admin@admin.com"
+        }
+    ],
+    "require": {
+        "webklex/pchart": "^0.0.1"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5e420dd66edc1057579ec73338d9fa1a",
+    "packages": [
+        {
+            "name": "webklex/pchart",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Webklex/pchart.git",
+                "reference": "4a89a41f6c72f536ba7b449643a0cacb50c2e849"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Webklex/pchart/zipball/4a89a41f6c72f536ba7b449643a0cacb50c2e849",
+                "reference": "4a89a41f6c72f536ba7b449643a0cacb50c2e849",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webklex\\pChart\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Malte Goldenbaum",
+                    "email": "github@webklex.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "pChart integration for frameworks such as Laravel and Symfony",
+            "homepage": "https://github.com/webklex/pchart",
+            "keywords": [
+                "laravel",
+                "pChartBundle",
+                "webklex"
+            ],
+            "time": "2018-08-07T20:54:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
