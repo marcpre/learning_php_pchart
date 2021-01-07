@@ -29,10 +29,14 @@ function generateChart()
         $myPicture->drawGradientArea(0, 0, 800, 350, DIRECTION_VERTICAL, array("StartR" => 211, "StartG" => 211, "StartB" => 211, "EndR" => 211, "EndG" => 211, "EndB" => 211, "Alpha" => 100));
 // $myPicture->drawGradientArea(0,0,800,350,DIRECTION_HORIZONTAL,array("StartR"=>240,"StartG"=>240,"StartB"=>240,"EndR"=>240,"EndG"=>240,"EndB"=>240,"Alpha"=>20));
 
+        // $title = "Insider Activity for Gaming and Leisure Properties Inc";
+        $title = "Insider Activity for Apple Inc";
+
         $myPicture->setFontProperties(array("FontName" => "src/font/Open_Sans/OpenSans-Light.ttf", "FontSize" => 10));
 // $myPicture->drawText(35,25,"Insider Transactions for John Smith",array("R"=>255,"G"=>255,"B"=>255));
         $TextSettings = array("R" => 0, "G" => 0, "B" => 0, "FontSize" => 15, "FontName" => "src/font/Open_Sans/OpenSans-Bold.ttf", "Align" => TEXT_ALIGN_BOTTOMMIDDLE);
-        $myPicture->drawText(235, 25, "Insider Transactions for John Smith", $TextSettings);
+        // $myPicture->drawText(300, 25, "Insider Activity for Gaming and Leisure Properties Inc", $TextSettings);
+        $myPicture->drawText(275, 25, $title, $TextSettings);
 
 // add watermark
         $myPicture->drawFromPNG(600, 300, "src/watermark/next-return_logo_black-155x31.png");
